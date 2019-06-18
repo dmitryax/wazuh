@@ -24,7 +24,7 @@ processors:
 
 # Elasticsearch output
 output.elasticsearch.hosts: ['http://YOUR_ELASTIC_SERVER_IP:9200']
-output.elasticsearch.pipeline: wazuh
+#output.elasticsearch.pipeline: wazuh
 output.elasticsearch.indices:
   - index: 'wazuh-alerts-3.x-%{+yyyy.MM.dd}'
 
